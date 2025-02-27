@@ -1,4 +1,5 @@
 import "../css/features-card.css";
+import PropTypes from "prop-types";
 const FeaturesCard = ({ data }) => {
   return (
     <div className="card">
@@ -10,5 +11,18 @@ const FeaturesCard = ({ data }) => {
     </div>
   );
 };
+FeaturesCard.defaultProps = {
+  data: {
+    title: "Fast Performance",
+    description: "Experience blazing fast speeds with our optimized solution.",
+  },
+};
 
+FeaturesCard.propTypes = {
+  data: PropTypes.shape({
+    title: PropTypes.string,
+    description: PropTypes.string,
+    icon: PropTypes.element,
+  }),
+};
 export default FeaturesCard;

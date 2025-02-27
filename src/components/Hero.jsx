@@ -1,4 +1,4 @@
-import HeroImage from '../Assets/Screenshots/Dashboard (Desktop).png'
+import HeroImage from '../Assets/Screenshots/Dashboard-Desktop.png'
 import { useModal } from '../context/ModalContext';
 import '../css/hero.css'
 const Hero = () => {

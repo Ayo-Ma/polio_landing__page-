@@ -1,6 +1,6 @@
 import SectionHeading from "./SectionHeading";
-import bigImage from "../Assets/Screenshots/Dashboard (Desktop).png";
-import smallImage from "../Assets/Screenshots/Dashboard (mobile).png";
+import bigImage from "../Assets/Screenshots/Dashboard-Desktop.png";
+import smallImage from "../Assets/Screenshots/Dashboard-Mobile.png";
 import "../css/features2.css";
 const Features2 = () => {
   return (
