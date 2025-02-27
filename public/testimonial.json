@@ -1,84 +1,84 @@
 [
   {
     "id": 1,
-    "image": "/public/Profile/profile1.webp",
+    "image": "/Profile/profile1.webp",
     "name": "Jenny Wilson",
     "role": "Product Manager, Slack",
     "testimonial": "We use Polio on a daily basis for several internal processes, and I cannot rave enough about them. Incredible flexibility and features combined with super intuitive UI."
   },
   {
     "id": 2,
-    "image": "/public/Profile/profile2.webp",
+    "image": "/Profile/profile2.webp",
     "name": "John Doe",
     "role": "Lead Developer, Google",
     "testimonial": "Polio has completely transformed the way our team collaborates. The flexibility and features are fantastic, and the UI is incredibly intuitive."
   },
   {
     "id": 3,
-    "image": "/public/Profile/profile3.webp",
+    "image": "/Profile/profile3.webp",
     "name": "Sarah Lee",
     "role": "Marketing Specialist, Adobe",
     "testimonial": "I’ve used various tools in the past, but Polio is by far the most efficient and user-friendly platform we’ve tried. Polio has made our project management process a lot smoother. The ability to track everything in one place is a huge plus. Polio has made our project management process a lot smoother. The ability to track everything in one place is a huge plus."
   },
   {
     "id": 4,
-    "image": "/public/Profile/profile4.webp",
+    "image": "/Profile/profile4.webp",
     "name": "Michael Brown",
     "role": "UI/UX Designer, Apple",
     "testimonial": "Polio’s ease of use and rich set of features has made my workflow significantly more efficient. I highly recommend it!"
   },
   {
     "id": 5,
-    "image": "/public/Profile/profile5.webp",
+    "image": "/Profile/profile5.webp",
     "name": "Laura Adams",
     "role": "Data Scientist, Facebook",
     "testimonial": "As a data scientist, I need fast, reliable, and intuitive tools. Polio ticks all the boxes, and I couldn’t be happier with it."
   },
   {
     "id": 6,
-    "image": "/public/Profile/profile6.webp",
+    "image": "/Profile/profile6.webp",
     "name": "David Clark",
     "role": "Business Analyst, Microsoft",
     "testimonial": "Polio has streamlined our team’s communication and helped us stay on top of complex projects. The interface is super easy to navigate."
   },
   {
     "id": 7,
-    "image": "/public/Profile/profile7.webp",
+    "image": "/Profile/profile7.webp",
     "name": "Olivia Martin",
     "role": "Product Owner, Amazon",
     "testimonial": "I’ve been using Polio for a few months, and it’s truly revolutionized the way we manage our product development lifecycle."
   },
   {
     "id": 8,
-    "image": "/public/Profile/profile8.webp",
+    "image": "/Profile/profile8.webp",
     "name": "James Walker",
     "role": "Senior Engineer, Netflix",
     "testimonial": "Polio has greatly improved our team’s efficiency, and the intuitive design makes it so easy to integrate into our daily operations."
   },
   {
     "id": 9,
-    "image": "/public/Profile/profile9.webp",
+    "image": "/Profile/profile9.webp",
     "name": "Rachel King",
     "role": "Customer Support Lead, Uber",
     "testimonial": "Polio’s customer support is amazing, and their platform has made it easier to track support tickets and communicate with clients."
   },
   {
     "id": 10,
-    "image": "/public/Profile/profile10.webp",
+    "image": "/Profile/profile10.webp",
     "name": "Ethan Harris",
     "role": "Software Engineer, Spotify",
     "testimonial": "I rely on Polio daily for various aspects of software development. Its feature set is top-notch, and I love the seamless experience."
   },
   {
     "id": 11,
-    "image": "/public/Profile/profile11.webp",
+    "image": "/Profile/profile11.webp",
     "name": "Chloe Perez",
     "role": "Product Designer, Shopify",
     "testimonial": "Polio has helped me simplify my design process and collaborate more effectively with my team. A must-have tool!"
   },
   {
     "id": 12,
-    "image": "/public/Profile/profile12.webp",
+    "image": "/Profile/profile12.webp",
     "name": "Daniel Carter",
     "role": "Project Manager, Twitter",
     "testimonial": "Polio has made our project management process a lot smoother. The ability to track everything in one place is a huge plus. Polio has made our project management process a lot smoother. The ability to track everything in one place is a huge plus."
