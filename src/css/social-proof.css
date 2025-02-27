@@ -1,0 +1,20 @@
+.social-proof {
+  padding-block: 96px;
+  display: flex;
+  flex-direction: column;
+}
+
+.social-proof p {
+  margin-bottom: var(--space-mxl);
+  color: var(--gray-400);
+  font-weight: 400;
+  text-align: center;
+}
+
+.Logo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  min-width: 250px;
+}

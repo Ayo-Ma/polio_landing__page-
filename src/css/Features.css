@@ -1,0 +1,12 @@
+.feature {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  max-width: 1200px;
+  margin-top: 64px;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

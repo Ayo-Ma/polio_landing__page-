@@ -1,0 +1,96 @@
+.accordion-section {
+  display: flex;
+  flex-direction: column;
+  /* max-width: 700px;   */
+  margin: 0 auto;
+  border: 1px solid var(--gray-100);
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.FAQ {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.accordion-container {
+  color: #242424;
+  max-height: auto;
+  border-bottom: 1px solid var(--gray-200);
+  transition: all 0.3s ease;
+
+  h2 {
+    color: #1c1c1c;
+    font-size: var(--text-lg);
+    font-weight: 500;
+  }
+}
+.accordion-icon {
+  border: 1.5px solid var(--gray-900);
+  color: var(--gray-900);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: .3rem;
+  cursor: pointer;
+  font-size: .8rem;
+  border-radius: 30px;
+}
+.accordion-header {
+  display: flex;
+  padding-block: 12px;
+  gap: 1rem;
+  justify-content: space-between;
+  cursor: pointer;
+  align-items: center;
+}
+.accordion-content {
+  opacity: 0;
+  transition: all 0.3s ease;
+
+  p {
+    color: #6b7280;
+    font-size: var(--text-md);
+    line-height: 28px;
+    display: none;
+
+  }
+}
+
+.accordion-container.active {
+  max-height: auto;
+  transition: all 0.3s ease;
+
+  .accordion-content {
+    opacity: 1;
+    /* display: block; */
+    padding-bottom: 1rem;
+    margin-top: 12px;
+    max-width: 20em;
+    transition: all 0.3s ease;
+    /* max-width: inherit; */
+
+    p {
+      display: block;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .accordion-section {
+    width: calc(100% - 12rem);
+  }
+  .accordion-container.active {
+    .accordion-content {
+      max-width:80%;
+      transition: all 0.3s ease;
+      /* padding-inline: 1rem; */
+      /* max-width: inherit; */
+
+      p {
+        display: block;
+      }
+    }
+  }
+}

@@ -1,0 +1,29 @@
+.buttons {
+  display: flex;
+  gap: var(--space-xs);
+  font-size: var(--text-md);
+}
+
+.btn {
+  padding: var(--space-xs) var(--space-xmd);
+  border-radius: var(--space-xs);
+  transition: 0.3s ease-in;
+  font-weight: 500;
+}
+.btn-primary {
+  background-color: var(--gray-900);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: var(--gray-700);
+}
+.btn-secondary {
+  border: 1px solid var(--gray-200);
+}
+
+.btn-secondary:hover {
+  border: 1px solid transparent;
+  background-color: var(--gray-900);
+  color: #fff;
+}
